@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="st.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <header class="header">
+       <a href="#">rsschool-cv</a>
+    </header>
+    <div style="font-size: 30px; margin-top: 15px; border-bottom: 1px solid rgb(186, 178, 178);">Maxim Kozlikin</div>
+    <div class="contact">
+        <h1>Contacts</h1>
+        <ul>
+            <li>Location: Almaty, Kazakhstan</li>
+            <li>Phone: +77471996567 </li>
+            <li>Email: kozlikin26@gmail.com </li>
+            <li>GitHub: <a id="gh" style="text-decoration: none; color: blue; " href="">WhiteGhost07</a></li>
+        </ul>
+    </div>
+    <div class="aboutme">
+        <h1>About me</h1>
+        <p>I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.        </p>
+        <p>I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</p>
+    </div>
+    <div class="scills">
+        <h1 style="border-bottom: 1px solid rgb(186, 178, 178);">Scills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS/SASS</li>
+            <li>JavaScript(Basic)</li>
+            <li>Git</li>
+        </ul>
+    </div>
+    <div class="code">
+        <h1 style="border-bottom: 1px solid rgb(186, 178, 178);">Code Example</h1>
+        <div style="width: 100%; background-color: #f6f8fa; height: 200px;">
+            <pre style="padding-top: 5%;">
+                function sum(a, b) {
+                    return a + b;
+                  }
+                  
+                  let result = sum(1, 2);
+                  alert( result );
+                </pre>
+        </div>
+
+    </div>
+    <div class="exp">
+        <h1>Experience</h1>
+    </div>
+    <div class="edu">
+        <h1>Education</h1>
+        <ul>
+            <li>University: Belarusian National Technical University, Civil Engineering major</li>
+            <li>Courses:
+                <ul>
+                    <li>CS50 lectures</li>
+                    <li>FreeCodeCamp</li>
+                    <li>HTML Academy</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="eng">
+        <h1>English</h1>
+        <p>A2 (I had been practicing English, when I worked in the USA as an exchange student)</p>
+    </div>
+</body>
+</html>
